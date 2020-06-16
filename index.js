@@ -1,5 +1,6 @@
 // Write your solution in this file!
-function updateDriverWithKeyAndValue(){
+const driver = {};
+function updateDriverWithKeyAndValue(driver, key, value){
   let driver{
     foo:"bar"
   }
@@ -7,13 +8,13 @@ function updateDriverWithKeyAndValue(){
 
 }
 
-function destructivelyUpdateDriverWithKeyAndValue(){
+function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
 
 }
 
-function deleteFromDriverByKey(){
+function deleteFromDriverByKey(driver, key){
 
 }
-function destructivelyDeleteFromDriverByKey(){
+function destructivelyDeleteFromDriverByKey(driver, key){
 
 }
